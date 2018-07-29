@@ -79,7 +79,7 @@ Example JSON file to send
 Get an array of "matching" Pets for the given customer
 
 
-### POST /customers/{id}/adopt?pet_id={pet_id}
+### PATCH /customers/{id}/adopt?pet_id={pet_id}
 
 The Customer adopts the given Pet
 
